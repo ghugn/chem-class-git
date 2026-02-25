@@ -1,0 +1,1 @@
+const fs = require('fs'); const path = 'd:/Downloads/antigravity_prj/chem_class/frontend/src/pages/Student/StudentDashboard.jsx'; let content = fs.readFileSync(path, 'utf8'); content = content.replace('../../utils/currency', '../../../utils/currency'); fs.writeFileSync(path, content);
